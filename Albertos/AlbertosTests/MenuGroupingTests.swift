@@ -8,6 +8,17 @@
 import XCTest
 @testable import Albertos
 
-final class AlbertosTests: XCTestCase {
-
+final class MenuGroupingTests: XCTestCase {
+    func testMunuWithManyCategoriesReturnsOneSetcionPerCategory() {
+        
+    }
+    
+    func testMenuWithOneCategoryRetrunOneSection() {
+        
+    }
+    
+    func testEmptyMenuReturnsEmptySections() {
+        
+    }
+    
 }
