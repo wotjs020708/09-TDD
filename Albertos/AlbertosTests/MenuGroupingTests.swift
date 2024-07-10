@@ -8,6 +8,8 @@
 import XCTest
 @testable import Albertos
 
+
+
 final class MenuGroupingTests: XCTestCase {
     func testMunuWithManyCategoriesReturnsOneSetcionPerCategory() {
         
@@ -18,7 +20,9 @@ final class MenuGroupingTests: XCTestCase {
     }
     
     func testEmptyMenuReturnsEmptySections() {
-        
+        let menu = [MenuItem]()
+        let sections = groupMenuByCategory(menu)
+        XCTAssertTrue(sections.isEmpty)
     }
     
 }
