@@ -7,6 +7,19 @@
 
 import XCTest
 
-final class SumOfProductsTests: XCTestCase {
+struct Product {
+    let category: String
+    let price: Double
+}
 
+func sumOf(_ products: [Product], withCategory category: String) -> Double {
+    return 0.0
+}
+
+
+final class SumOfProductsTests: XCTestCase {
+    func testSumOfEmptyArrayIsZero() { }
+    func testSumOfOneItemIsItemPrics() { }
+    func testSumisSumOfItemsPricesForeGivenCategory() { }
+    
 }
