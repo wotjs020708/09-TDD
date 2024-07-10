@@ -8,10 +8,11 @@
 import Foundation
 
 struct MenuItem {
-    
+    let category: String
 }
 
 func groupMenuByCategory(_ menu: [MenuItem]) -> [MenuSection] {
-    return []
+    
+    return [MenuSection()]
     
 }
