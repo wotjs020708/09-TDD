@@ -20,7 +20,9 @@ func isLeap(_ year: Int) -> Bool {
 final class HelloWolrdTests: XCTestCase {
     
     func testEvenlyDivisibleBy4IsLeap() {
-        XCTAssert(isLeap(2020))
+        let year = 2020 // arrange: 입력 준비
+        let leap = isLeap(year) // Act: 테스트 대상을 실행
+        XCTAssert(leap) // Assert: 출력 확인
     }
     
     func testEvenlyDivisibleBy100IsNotLeap() {
