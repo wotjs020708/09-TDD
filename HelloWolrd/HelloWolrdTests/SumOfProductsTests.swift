@@ -13,13 +13,36 @@ struct Product {
 }
 
 func sumOf(_ products: [Product], withCategory category: String) -> Double {
-    return 0.0
+    return products
+        .filter { $0.category == category }
+        .reduce(0.0) { $0 + $1.price}
 }
 
 
 final class SumOfProductsTests: XCTestCase {
-    func testSumOfEmptyArrayIsZero() { }
-    func testSumOfOneItemIsItemPrics() { }
-    func testSumisSumOfItemsPricesForeGivenCategory() { }
+    func testSumOfEmptyArrayIsZero() {
+        let category = "books"
+        let products = [Product]()
+        let sum = sumOf(products, withCategory: category)
+        XCTAssertEqual(sum, 0)
+        
+    }
+    func testSumOfOneItemIsItemPrics() {
+        let category = "books"
+        let products = [Product(category: category, price: 3)]
+        let sum = sumOf(products, withCategory: category)
+        XCTAssertEqual(sum, 3)
+    }
+    func testSumisSumOfItemsPricesForeGivenCategory() {
+        let category = "books"
+        let products = [
+            Product(category: category, price: 3),
+            Product(category: "movies", price: 2),
+            Product(category: category, price: 1)
+        ]
+        let sum = sumOf(products, withCategory: category)
+        XCTAssertEqual(sum, 4)
+        
+    }
     
 }
