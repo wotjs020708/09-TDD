@@ -8,17 +8,21 @@
 import SwiftUI
 
 struct MenuList: View {
+    let sections: [MenuSection]
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        List{
+            ForEach(sections) { section in
+                Section(header: Text(section.category)) {
+                    ForEach(section.items) { item in
+                        Text(item.name)
+                    }
+                }
+            }
         }
-        .padding()
     }
 }
 
 #Preview {
-    MenuList()
+    MenuList(sections: groupMenuByCategory(menu))
 }
