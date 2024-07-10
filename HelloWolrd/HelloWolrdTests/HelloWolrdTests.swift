@@ -8,7 +8,13 @@
 import XCTest
 
 func isLeap(_ year: Int) -> Bool {
-    return false
+    guard year % 400 != 0 else {
+        return true
+    }
+    guard year % 100 != 0 else {
+        return false
+    }
+    return year % 4 == 0
 }
 
 final class HelloWolrdTests: XCTestCase {
@@ -18,13 +24,13 @@ final class HelloWolrdTests: XCTestCase {
     }
     
     func testEvenlyDivisibleBy100IsNotLeap() {
-        
+        XCTAssertFalse(isLeap(2100))
     }
     func testEvenlyDivisibleBy400IsLeap() {
-        
+        XCTAssertTrue(isLeap(2000))
     }
     
     func testEvenlyDivisibleBy4Or400IsNotLeap(){
-        
+        XCTAssertFalse(isLeap(2021))
     }
 }
