@@ -16,6 +16,8 @@
 		4B38B0F52C3E4107002EB825 /* AlbertosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B38B0F42C3E4107002EB825 /* AlbertosUITestsLaunchTests.swift */; };
 		4B38B1022C3E42F9002EB825 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B38B1012C3E42F9002EB825 /* MenuItem.swift */; };
 		4B38B1042C3E430B002EB825 /* MenuSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B38B1032C3E430B002EB825 /* MenuSection.swift */; };
+		4B38B10B2C3F60FB002EB825 /* Array+Safe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B38B10A2C3F60FB002EB825 /* Array+Safe.swift */; };
+		4B38B10D2C3F611E002EB825 /* MenuItem+Fixture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B38B10C2C3F611E002EB825 /* MenuItem+Fixture.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		4B38B0F42C3E4107002EB825 /* AlbertosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbertosUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4B38B1012C3E42F9002EB825 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		4B38B1032C3E430B002EB825 /* MenuSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSection.swift; sourceTree = "<group>"; };
+		4B38B10A2C3F60FB002EB825 /* Array+Safe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Safe.swift"; sourceTree = "<group>"; };
+		4B38B10C2C3F611E002EB825 /* MenuItem+Fixture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MenuItem+Fixture.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +124,8 @@
 			isa = PBXGroup;
 			children = (
 				4B38B0E82C3E4106002EB825 /* MenuGroupingTests.swift */,
+				4B38B10A2C3F60FB002EB825 /* Array+Safe.swift */,
+				4B38B10C2C3F611E002EB825 /* MenuItem+Fixture.swift */,
 			);
 			path = AlbertosTests;
 			sourceTree = "<group>";
@@ -274,6 +280,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B38B10B2C3F60FB002EB825 /* Array+Safe.swift in Sources */,
+				4B38B10D2C3F611E002EB825 /* MenuItem+Fixture.swift in Sources */,
 				4B38B0E92C3E4106002EB825 /* MenuGroupingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
