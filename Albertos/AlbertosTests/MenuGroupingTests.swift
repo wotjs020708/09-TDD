@@ -32,7 +32,7 @@ final class MenuGroupingTests: XCTestCase {
     func testMenuWithOneCategoryReturnOneSection() throws {
         let menu: [MenuItem] = [
             .fixture(category: "pastas", name: "name"),
-            .fixture(category: "pastas ", name: "other name"),
+            .fixture(category: "pastas", name: "other name"),
         ]
         
         let sections = groupMenuByCategory(menu)
