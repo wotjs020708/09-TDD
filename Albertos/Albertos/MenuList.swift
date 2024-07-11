@@ -15,7 +15,7 @@ struct MenuList: View {
             ForEach(sections) { section in
                 Section(header: Text(section.category)) {
                     ForEach(section.items) { item in
-                        Text(item.name)
+                        MenuRow(viewModel: .init(item: item))
                     }
                 }
             }
@@ -26,6 +26,7 @@ struct MenuList: View {
 
 #Preview {
     NavigationStack {
-        MenuList(sections: groupMenuByCategory(menu))        
+        MenuList(sections: groupMenuByCategory(menu))
+        
     }
 }
