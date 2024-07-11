@@ -20,9 +20,12 @@ struct MenuList: View {
                 }
             }
         }
+        .navigationTitle("Alberto's 🇮🇹")
     }
 }
 
 #Preview {
-    MenuList(sections: groupMenuByCategory(menu))
+    NavigationStack {
+        MenuList(sections: groupMenuByCategory(menu))        
+    }
 }
