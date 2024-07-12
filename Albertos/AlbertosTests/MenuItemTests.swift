@@ -12,7 +12,16 @@ import XCTest
 final class MenuItemTests: XCTestCase {
     func testWhenDecodedFromJSONDataHasAllTheImputProperties() throws {
         // Arrange
-        let json = #"{ "name": "a name", "category": "a category", "spicy": true }"#
+        let json = """
+    {
+        "name": "a name",
+        "category": {
+            "name": "a category",
+            "id": 123
+        },
+        "spicy": false
+    }
+    """
         let jsonData = try XCTUnwrap(json.data(using: .utf8))
         
         // Act
@@ -21,7 +30,7 @@ final class MenuItemTests: XCTestCase {
         // Assert
         XCTAssertEqual(item.name, "a name")
         XCTAssertEqual(item.category, "a category")
-        XCTAssertEqual(item.spicy, true)
+        XCTAssertEqual(item.spicy, false)
         
     }
     
