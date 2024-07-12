@@ -36,6 +36,9 @@
 		4B38B1332C40C74B002EB825 /* NetworkFetchingStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B38B1322C40C74B002EB825 /* NetworkFetchingStub.swift */; };
 		4B38B1352C40CB46002EB825 /* OrderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B38B1342C40CB46002EB825 /* OrderController.swift */; };
 		4B38B1372C40CB62002EB825 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B38B1362C40CB62002EB825 /* Order.swift */; };
+		4B38B1392C40E64C002EB825 /* MenuItemDetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B38B1382C40E64C002EB825 /* MenuItemDetailViewModelTests.swift */; };
+		4B38B13B2C40E68C002EB825 /* MenuItemDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B38B13A2C40E68C002EB825 /* MenuItemDetailViewModel.swift */; };
+		4B38B13D2C40E6BE002EB825 /* MenuItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B38B13C2C40E6BE002EB825 /* MenuItemDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +91,9 @@
 		4B38B1322C40C74B002EB825 /* NetworkFetchingStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkFetchingStub.swift; sourceTree = "<group>"; };
 		4B38B1342C40CB46002EB825 /* OrderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderController.swift; sourceTree = "<group>"; };
 		4B38B1362C40CB62002EB825 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		4B38B1382C40E64C002EB825 /* MenuItemDetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemDetailViewModelTests.swift; sourceTree = "<group>"; };
+		4B38B13A2C40E68C002EB825 /* MenuItemDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemDetailViewModel.swift; sourceTree = "<group>"; };
+		4B38B13C2C40E6BE002EB825 /* MenuItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +159,8 @@
 				4B38B12E2C40C270002EB825 /* NetworFetching.swift */,
 				4B38B1342C40CB46002EB825 /* OrderController.swift */,
 				4B38B1362C40CB62002EB825 /* Order.swift */,
+				4B38B13A2C40E68C002EB825 /* MenuItemDetailViewModel.swift */,
+				4B38B13C2C40E6BE002EB825 /* MenuItemDetail.swift */,
 			);
 			path = Albertos;
 			sourceTree = "<group>";
@@ -180,6 +188,7 @@
 				4B38B1242C40B0A1002EB825 /* menu_item.json */,
 				4B38B12A2C40BD6D002EB825 /* MenuFetcherTests.swift */,
 				4B38B1322C40C74B002EB825 /* NetworkFetchingStub.swift */,
+				4B38B1382C40E64C002EB825 /* MenuItemDetailViewModelTests.swift */,
 			);
 			path = AlbertosTests;
 			sourceTree = "<group>";
@@ -324,6 +333,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B38B13D2C40E6BE002EB825 /* MenuItemDetail.swift in Sources */,
 				4B38B1352C40CB46002EB825 /* OrderController.swift in Sources */,
 				4B38B1292C40BD29002EB825 /* MenuFetcher.swift in Sources */,
 				4B38B11B2C3F79EF002EB825 /* MenuList.ViewModel.swift in Sources */,
@@ -337,6 +347,7 @@
 				4B38B0D82C3E4105002EB825 /* AlbertosApp.swift in Sources */,
 				4B38B1132C3F7026002EB825 /* MenuRow.swift in Sources */,
 				4B38B11F2C3F9771002EB825 /* MenuFetching.swift in Sources */,
+				4B38B13B2C40E68C002EB825 /* MenuItemDetailViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +358,7 @@
 				4B38B1332C40C74B002EB825 /* NetworkFetchingStub.swift in Sources */,
 				4B38B12B2C40BD6D002EB825 /* MenuFetcherTests.swift in Sources */,
 				4B38B1272C40B3F7002EB825 /* XCTestCase+JSONE.swift in Sources */,
+				4B38B1392C40E64C002EB825 /* MenuItemDetailViewModelTests.swift in Sources */,
 				4B38B10F2C3F6988002EB825 /* MenuSection+Fixture.swift in Sources */,
 				4B38B1172C3F79A1002EB825 /* MenuListViewModelTests.swift in Sources */,
 				4B38B10B2C3F60FB002EB825 /* Array+Safe.swift in Sources */,
