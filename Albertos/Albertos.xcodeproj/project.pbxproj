@@ -29,6 +29,7 @@
 		4B38B1212C3FB29A002EB825 /* MenuFetchingStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B38B1202C3FB29A002EB825 /* MenuFetchingStub.swift */; };
 		4B38B1232C40AEF2002EB825 /* MenuItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B38B1222C40AEF2002EB825 /* MenuItemTests.swift */; };
 		4B38B1252C40B0A1002EB825 /* menu_item.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B38B1242C40B0A1002EB825 /* menu_item.json */; };
+		4B38B1272C40B3F7002EB825 /* XCTestCase+JSONE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B38B1262C40B3F7002EB825 /* XCTestCase+JSONE.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,7 @@
 		4B38B1202C3FB29A002EB825 /* MenuFetchingStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuFetchingStub.swift; sourceTree = "<group>"; };
 		4B38B1222C40AEF2002EB825 /* MenuItemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemTests.swift; sourceTree = "<group>"; };
 		4B38B1242C40B0A1002EB825 /* menu_item.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = menu_item.json; sourceTree = "<group>"; };
+		4B38B1262C40B3F7002EB825 /* XCTestCase+JSONE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+JSONE.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 				4B38B1162C3F79A1002EB825 /* MenuListViewModelTests.swift */,
 				4B38B1202C3FB29A002EB825 /* MenuFetchingStub.swift */,
 				4B38B1222C40AEF2002EB825 /* MenuItemTests.swift */,
+				4B38B1262C40B3F7002EB825 /* XCTestCase+JSONE.swift */,
 				4B38B1242C40B0A1002EB825 /* menu_item.json */,
 			);
 			path = AlbertosTests;
@@ -319,6 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B38B1272C40B3F7002EB825 /* XCTestCase+JSONE.swift in Sources */,
 				4B38B10F2C3F6988002EB825 /* MenuSection+Fixture.swift in Sources */,
 				4B38B1172C3F79A1002EB825 /* MenuListViewModelTests.swift in Sources */,
 				4B38B10B2C3F60FB002EB825 /* Array+Safe.swift in Sources */,

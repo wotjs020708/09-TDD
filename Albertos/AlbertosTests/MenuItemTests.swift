@@ -27,11 +27,8 @@ final class MenuItemTests: XCTestCase {
     
     func testDecoderFromJSONData() throws {
         // Arrange
-        let url = try XCTUnwrap(
-            Bundle(for: type(of: self)).url(forResource: "menu_item", withExtension: "json")
-        )
-        let data = try Data(contentsOf: url)
-            // Act
+        let data = try dataFromJSONFileNamed("menu_item")
+        // Act
         let item = try JSONDecoder().decode(MenuItem.self, from: data)
         
         // Assert
