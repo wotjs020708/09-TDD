@@ -30,6 +30,8 @@
 		4B38B1232C40AEF2002EB825 /* MenuItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B38B1222C40AEF2002EB825 /* MenuItemTests.swift */; };
 		4B38B1252C40B0A1002EB825 /* menu_item.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B38B1242C40B0A1002EB825 /* menu_item.json */; };
 		4B38B1272C40B3F7002EB825 /* XCTestCase+JSONE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B38B1262C40B3F7002EB825 /* XCTestCase+JSONE.swift */; };
+		4B38B1292C40BD29002EB825 /* MenuFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B38B1282C40BD29002EB825 /* MenuFetcher.swift */; };
+		4B38B12B2C40BD6D002EB825 /* MenuFetcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B38B12A2C40BD6D002EB825 /* MenuFetcherTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +78,8 @@
 		4B38B1222C40AEF2002EB825 /* MenuItemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemTests.swift; sourceTree = "<group>"; };
 		4B38B1242C40B0A1002EB825 /* menu_item.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = menu_item.json; sourceTree = "<group>"; };
 		4B38B1262C40B3F7002EB825 /* XCTestCase+JSONE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "XCTestCase+JSONE.swift"; sourceTree = "<group>"; };
+		4B38B1282C40BD29002EB825 /* MenuFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuFetcher.swift; sourceTree = "<group>"; };
+		4B38B12A2C40BD6D002EB825 /* MenuFetcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuFetcherTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +141,7 @@
 				4B38B0DD2C3E4106002EB825 /* Preview Content */,
 				4B38B1012C3E42F9002EB825 /* MenuItem.swift */,
 				4B38B1032C3E430B002EB825 /* MenuSection.swift */,
+				4B38B1282C40BD29002EB825 /* MenuFetcher.swift */,
 			);
 			path = Albertos;
 			sourceTree = "<group>";
@@ -162,6 +167,7 @@
 				4B38B1222C40AEF2002EB825 /* MenuItemTests.swift */,
 				4B38B1262C40B3F7002EB825 /* XCTestCase+JSONE.swift */,
 				4B38B1242C40B0A1002EB825 /* menu_item.json */,
+				4B38B12A2C40BD6D002EB825 /* MenuFetcherTests.swift */,
 			);
 			path = AlbertosTests;
 			sourceTree = "<group>";
@@ -306,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B38B1292C40BD29002EB825 /* MenuFetcher.swift in Sources */,
 				4B38B11B2C3F79EF002EB825 /* MenuList.ViewModel.swift in Sources */,
 				4B38B1022C3E42F9002EB825 /* MenuItem.swift in Sources */,
 				4B38B11D2C3F974E002EB825 /* MenuFetchingSample.swift in Sources */,
@@ -322,6 +329,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B38B12B2C40BD6D002EB825 /* MenuFetcherTests.swift in Sources */,
 				4B38B1272C40B3F7002EB825 /* XCTestCase+JSONE.swift in Sources */,
 				4B38B10F2C3F6988002EB825 /* MenuSection+Fixture.swift in Sources */,
 				4B38B1172C3F79A1002EB825 /* MenuListViewModelTests.swift in Sources */,
