@@ -28,6 +28,7 @@
 		4B38B11F2C3F9771002EB825 /* MenuFetching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B38B11E2C3F9771002EB825 /* MenuFetching.swift */; };
 		4B38B1212C3FB29A002EB825 /* MenuFetchingStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B38B1202C3FB29A002EB825 /* MenuFetchingStub.swift */; };
 		4B38B1232C40AEF2002EB825 /* MenuItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B38B1222C40AEF2002EB825 /* MenuItemTests.swift */; };
+		4B38B1252C40B0A1002EB825 /* menu_item.json in Resources */ = {isa = PBXBuildFile; fileRef = 4B38B1242C40B0A1002EB825 /* menu_item.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		4B38B11E2C3F9771002EB825 /* MenuFetching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuFetching.swift; sourceTree = "<group>"; };
 		4B38B1202C3FB29A002EB825 /* MenuFetchingStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuFetchingStub.swift; sourceTree = "<group>"; };
 		4B38B1222C40AEF2002EB825 /* MenuItemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemTests.swift; sourceTree = "<group>"; };
+		4B38B1242C40B0A1002EB825 /* menu_item.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = menu_item.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 				4B38B1162C3F79A1002EB825 /* MenuListViewModelTests.swift */,
 				4B38B1202C3FB29A002EB825 /* MenuFetchingStub.swift */,
 				4B38B1222C40AEF2002EB825 /* MenuItemTests.swift */,
+				4B38B1242C40B0A1002EB825 /* menu_item.json */,
 			);
 			path = AlbertosTests;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B38B1252C40B0A1002EB825 /* menu_item.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
