@@ -11,19 +11,18 @@ import Combine
 @testable import Albertos
 
 final class MenuFetcherTests: XCTestCase {
-    
     var cancellables = Set<AnyCancellable>()
     
     func testWhenRequestSucceedsPublishesDecodedMenuItems() throws {
         let json = """
-        [
-            { "name": "a name", "category": "a category", "spicy": true },
-            { "name": "another name", "category": "a category", "spicy": true }
-        ]
-        """
+[
+    { "name": "a name", "category": "a category", "spicy": true },
+    { "name": "another name", "category": "a category", "spicy": true }
+]
+"""
         let data = try XCTUnwrap(json.data(using: .utf8))
         
-        let stub = NetWorkFetchingStub(result: .success(data))
+        let stub = NetworkFetchingStub(returning: .success(data))
         let menuFetcher = MenuFetcher(networkFetching: stub)
         let expectation = XCTestExpectation(description: "Publishes decoded [MenuItem]")
         
@@ -38,9 +37,6 @@ final class MenuFetcherTests: XCTestCase {
             })
             .store(in: &cancellables)
         wait(for: [expectation], timeout: 1)
-        
-        
     }
     func testWhenRequestFailsPublishesReceivedError() {}
-    
 }

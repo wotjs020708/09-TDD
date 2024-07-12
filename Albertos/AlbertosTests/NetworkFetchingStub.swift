@@ -8,14 +8,11 @@
 import Foundation
 import Combine
 
-
 @testable import Albertos
 
-class NetWorkFetchingStub: NetworkFetching {
-    
-    private let result: Result <Data, URLError>
-    
-    init(result: Result<Data, URLError>) {
+class NetworkFetchingStub: NetworkFetching {
+    private let result: Result<Data, URLError>
+    init(returning result: Result<Data, URLError>) {
         self.result = result
     }
     
