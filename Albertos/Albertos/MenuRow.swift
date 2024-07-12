@@ -14,6 +14,3 @@ struct MenuRow: View {
     }
 }
 
-#Preview {
-    MenuRow(viewModel: .init(item: menu[0]))
-}

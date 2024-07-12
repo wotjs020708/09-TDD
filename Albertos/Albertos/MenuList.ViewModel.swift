@@ -14,7 +14,7 @@ extension MenuList {
         private var cancellables = Set<AnyCancellable>()
         
         init(
-            menuFetching: MenuFetching = MenuFetchingSample(),
+            menuFetching: MenuFetching,
             menuGrouping: @escaping ([MenuItem]) -> [MenuSection] = groupMenuByCategory) {
                 menuFetching
                     .fetchMenu()

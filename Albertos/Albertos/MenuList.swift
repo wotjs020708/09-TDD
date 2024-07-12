@@ -32,7 +32,7 @@ struct MenuList: View {
 
 #Preview {
     NavigationStack {
-        MenuList(viewModel: .init())
+        MenuList(viewModel: .init(menuFetching: MenuFetcher(networkFetching: URLSession.shared)))
         
     }
 }
