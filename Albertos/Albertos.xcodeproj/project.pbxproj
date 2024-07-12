@@ -39,6 +39,8 @@
 		4B38B1392C40E64C002EB825 /* MenuItemDetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B38B1382C40E64C002EB825 /* MenuItemDetailViewModelTests.swift */; };
 		4B38B13B2C40E68C002EB825 /* MenuItemDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B38B13A2C40E68C002EB825 /* MenuItemDetailViewModel.swift */; };
 		4B38B13D2C40E6BE002EB825 /* MenuItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B38B13C2C40E6BE002EB825 /* MenuItemDetail.swift */; };
+		4B38B13F2C40F5ED002EB825 /* OrderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B38B13E2C40F5ED002EB825 /* OrderTest.swift */; };
+		4B38B1412C40F618002EB825 /* OrderControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B38B1402C40F618002EB825 /* OrderControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +96,8 @@
 		4B38B1382C40E64C002EB825 /* MenuItemDetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemDetailViewModelTests.swift; sourceTree = "<group>"; };
 		4B38B13A2C40E68C002EB825 /* MenuItemDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemDetailViewModel.swift; sourceTree = "<group>"; };
 		4B38B13C2C40E6BE002EB825 /* MenuItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemDetail.swift; sourceTree = "<group>"; };
+		4B38B13E2C40F5ED002EB825 /* OrderTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTest.swift; sourceTree = "<group>"; };
+		4B38B1402C40F618002EB825 /* OrderControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +193,8 @@
 				4B38B12A2C40BD6D002EB825 /* MenuFetcherTests.swift */,
 				4B38B1322C40C74B002EB825 /* NetworkFetchingStub.swift */,
 				4B38B1382C40E64C002EB825 /* MenuItemDetailViewModelTests.swift */,
+				4B38B13E2C40F5ED002EB825 /* OrderTest.swift */,
+				4B38B1402C40F618002EB825 /* OrderControllerTests.swift */,
 			);
 			path = AlbertosTests;
 			sourceTree = "<group>";
@@ -363,7 +369,9 @@
 				4B38B1172C3F79A1002EB825 /* MenuListViewModelTests.swift in Sources */,
 				4B38B10B2C3F60FB002EB825 /* Array+Safe.swift in Sources */,
 				4B38B10D2C3F611E002EB825 /* MenuItem+Fixture.swift in Sources */,
+				4B38B1412C40F618002EB825 /* OrderControllerTests.swift in Sources */,
 				4B38B1112C3F6F98002EB825 /* MenuRowViewModelTests.swift in Sources */,
+				4B38B13F2C40F5ED002EB825 /* OrderTest.swift in Sources */,
 				4B38B1232C40AEF2002EB825 /* MenuItemTests.swift in Sources */,
 				4B38B0E92C3E4106002EB825 /* MenuGroupingTests.swift in Sources */,
 				4B38B1212C3FB29A002EB825 /* MenuFetchingStub.swift in Sources */,
